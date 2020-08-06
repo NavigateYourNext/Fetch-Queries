@@ -1,0 +1,5 @@
+Query = getMID
+select mid from midTable where paymentRef = ?
+
+Query = getPaymentStatus
+select status from statusTable where mid = ?
